@@ -5,6 +5,7 @@ github_repos:
   - jeevanchaps/everest-ner
   - jeevanchaps/DanfeNER
   - jeevanchaps/SelfCode
+  - jeevanchaps/sentiment_analysis_NepaliCovidTweets
   - jeevanchaps/SMS-SPAM-DETECTION
   - jeevanchaps/ruby-project-ecommerce
 
