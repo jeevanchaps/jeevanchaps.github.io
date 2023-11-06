@@ -11,7 +11,7 @@
   contents:
     - title: PhD Computer Science
       institution: University of Memphis, Memphis, TN, USA
-      year:  AUG 2019 - AUG 2025
+      year:  AUG 2023 - DEC 2024
       description:
         - title: Research Interests.
           contents:
@@ -20,6 +20,14 @@
             - Machine Learning
             - Intelligent Tutoring System (ITS)
             - Data Science
+
+- title: Education
+  type: time_table
+  contents:
+    - title: MS Computer Science
+      institution: University of Memphis, Memphis, TN, USA
+      year:  AUG 2019 - AUG 2023
+      
            
     - title: Bachelor of Science in Computer Science and Information Technology
       institution: Tribhuvan University, Institute of Science and Technology
