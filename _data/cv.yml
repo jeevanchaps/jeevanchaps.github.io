@@ -11,7 +11,7 @@
   contents:
     - title: PhD Computer Science
       institution: University of Memphis, Memphis, TN, USA
-      year:  AUG 2023 - DEC 2024
+      year:  AUG 2023 - AUG 2025
       description:
         - title: Research Interests.
           contents:
@@ -44,71 +44,53 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Graduate Research Assistant
+    - title: Graduate Data Science and NLP Research Assistant
       institution: Institute of Intelligent Systems, University of Memphis
-      year:  AUG 2019 -  AUG 2025
+      year:  AUG 2019 -  Current
       description:
-        - Using data science and machine learning techniques, examined and analyzed thousands of student’s responses
-          generated from conversational agents to develop better learning strategies for source code comprehension
-        - Prepared and released a dataset called SelfCode containing 1770 sentence pairs of student and expert explanations for
-          building effective machine learning models for automated assessment
-        - Designed and deployed a machine learning-based web service that automated the assessment of students’ responses
-          in code comprehension, resulting in a significant improvement in student learning.
-        - Conducted exploratory data analysis, and advanced statistical analysis on hundreds of students to measure their
-          performance
+        - Researched and experimented with LLMs, such as GTP-4 and GPT-4 Turbo, to automatically generate expert-level
+          explanations of JAVA code, reducing human labor time and cost
+        - Analyzed the behavior of LLMs, including GPT-3.5, GPT-4, and LLama, to understand the impact of prompts, temperature
+          values, and programming languages, generating and analyzing 3.5K code explanations for comprehensive insights
+        - Applied data science, nautral language processing, and machine learning techniques to analyze thousands of student
+          responses from conversational agents, leading to the development of highly effective learning strategies for source code
+          comprehension and a 45% increase in student performance and understanding
+        - Prepared and released a dataset called SelfCode containing 1.8K sentence pairs of student and expert explanations for
+          building effective AI models for automated assessment
+        - Designed and deployed a machine learning-based web service automating the evaluation of students responses in code
+          comprehension, resulting in a 35% increase in student learning based on the feedback provided
+        - Conducted exploratory data analysis, and advanced statistical analysis on hundreds of students to measure their performance
   
-    - title: Teaching Assistant
+    - title: Graduate Teaching Assistant
       institution: Department of Computer Science, University of Memphis
       year: AUG 2019 - 2019 DEC
       description:
-        - Assisted in instructing and grading assignments for classes comprising of 40 students, while providing timely feedback
-          on assignments and overseeing the successful completion of 10 student projects
-        - Course Assisted; COMP 1900, COMP 4420
+        - Instructed and graded assignments for 40 students, delivering timely feedback and overseeing 10 student projects for COMP 1900 and COMP 4420 courses
+        - Demonstrated strong communication skills and time management while assisting in instructing and grading assignments for computer science courses.
 
     - title: Software Engineer 
       institution: Kulchan Pvt. Ltd., Kathmandu, Nepal
       year: OCT 2017- MAY 2019
       description:
+        - Delivered 10+ web applications and software solutions on schedule, achieving a client satisfaction rate exceeding 95%
+        - Implemented RESTful APIs using SpringBoot, successfully integrating with 3 mobile applications
+        - Demonstrated strong communication skills through regular reporting of project results ensuring transparent progress updates to clients
 
-    - title: Software Engineer Intern 
-      institution: Kathmandu Living Labs, Kathmandu, Nepal
-      year: JUN 2017 ‑AUG 2017
-
-
-   
-
-# 
+    
 
 - title: Skills
   type: nested_list
   contents:
-    - title: Programming
+    - title: Technical Skills
       items: 
-        - Python, JAVA, Ruby, Ruby on Rails
+        - Python, Large Language Models (LLMs), PyTorch, Scikit learn, HuggingFace, Tensorflow, Transformers, NumPy, SciPy, Pandas, Matplotlib, 
+          Python NLTK, WEKA, Genism, Linear Regression, Decision Tree, Logistic Regression, Random Forest, SVM, K-means Clustering, Data Visualization, Data Analysis, 
+          Data Wrangling, Statistics, Statistical Analysis, Microsoft Excel, PowerBI, Tableau, Web Scraping, A/B Testing, MySQL, Postgres, MongoDB, Git, Latex, 
+          Digital Ocean, Docker, Windows, Apache, Linux/Unix, MacOS
 
-    - title: Libraries & Frameworks
-      items: 
-        - PyTorch, TensorFlow, Scikit-learn(Sklearn), NumPy, Pandas, Matplotlib, Seaborn, spacy, NLTK, WEKA
-
-    - title: Classical ML
-      items:
-      -  Naive Bayes, Decision Tree, Random Forest, Linear regression, Logistic regression, SVM
-
-    - title: Data Science
-      items:
-      -  Data Visualization, Data Wrangling, Statistics, Excel, Statistical Analysis
-
-    - title: DataBase
-      items:
-      - MySQL, MongoDB, PostgreSQL
-
-    - title: Tools & Utilities
-      items: 
-        - Git, Latex, Linux, Windows, Apache, MacOS
-
-    - title: Soft Skills
-      items: 
-        - Time Management, Teamwork, Problem-solving, Report Writing
+    # - title: Soft Skills
+    #   items: 
+    #     - Time Management, Teamwork, Problem-solving, Report Writing
 
  
       
