@@ -25,4 +25,4 @@ His research interests are in the field of Natural Language Processing (NLP), Ma
 
 Apart from his main research, he also focuses on developing new models and tools in NLP for resource poor language like Nepali. He completed his Bachelors degree from [Tribhuvan University, Institute of Science and Technology](https://www.tuiost.edu.np/) in Computer Science and Information Technology.
 
-During his free time, he is interested in outdoor activities like Soccer, Hiking and Travelling. 
+During his free time, he is interested in outdoor activities like Soccer ⚽, Hiking 🥾 , Fishing 🎣 and Camping 🏕️. 
