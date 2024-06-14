@@ -2,10 +2,11 @@ github_users:
   - jeevanchaps
 
 github_repos:
+  - jeevanchaps/Meta-Llama3-8B-Instruct-assessment
+  - jeevanchaps/sentiment_analysis_NepaliCovidTweets
+  - jeevanchaps/SelfCode
   - jeevanchaps/everest-ner
   - jeevanchaps/DanfeNER
-  - jeevanchaps/SelfCode
-  - jeevanchaps/sentiment_analysis_NepaliCovidTweets
   - jeevanchaps/SMS-SPAM-DETECTION
   - jeevanchaps/ruby-project-ecommerce
 
