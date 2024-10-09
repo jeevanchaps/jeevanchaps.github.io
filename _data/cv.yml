@@ -91,10 +91,12 @@
   contents:
     - title: Technical Skills
       items: 
-        - Python, Large Language Models (LLMs), PyTorch, Scikit learn, HuggingFace, Tensorflow, Transformers, NumPy, SciPy, Pandas, Matplotlib, 
-          Python NLTK, WEKA, Genism, Linear Regression, Decision Tree, Logistic Regression, Random Forest, SVM, K-means Clustering, Data Visualization, Data Analysis, 
-          Data Wrangling, Statistics, Statistical Analysis, Microsoft Excel, PowerBI, Tableau, Web Scraping, A/B Testing, MySQL, Postgres, MongoDB, Git, Latex, 
-          Digital Ocean, Docker, Windows, Apache, Linux/Unix, MacOS
+        - **Programming & Scripting:** Python, R, SQL, Java
+        - **Machine Learning and AI:** PyTorch, TensorFlow, Scikit-learn, HuggingFace, LLMs, CNN, LSTM, BERT, NLP, Deep Learning, Random Forests, SVM, Decision Tree, Logistic Regression, XGBoost, Ensemble Methods, Predictive Modeling, Segmentation, Clustering, Forecasting, Statistical Modeling
+        - **Data Science & Analytics:** NumPy, SciPy, Pandas, Matplotlib, Seaborn, Plotly, WEKA, Statistical Analysis, Data Visualization, Feature Engineering, Hypothesis Testing, A/B Testing, Time Series Analysis, Regression Analysis, PCA, Predictive Analytics, Data Preprocessing, Exploratory Data Analysis (EDA)
+        - **Big Data & Databases:** MySQL, PostgreSQL, MongoDB, NoSQL, Data Modeling, ETL processes, Data Mining 
+        - **Cloud & DevOps:** Git, GitHub, GitLab, Docker, RESTful APIs, Linux/Unix, Windows, MacOS, Apache
+        - **Business Intelligence:** Excel, PowerBI, Tableau, KPI Analysis, Data Wrangling, Web Scraping, Airflow, AirTable, Dashboard Design, Google Analytics
 
     # - title: Soft Skills
     #   items: 
