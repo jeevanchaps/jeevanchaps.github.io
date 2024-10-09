@@ -11,7 +11,7 @@
   contents:
     - title: PhD Computer Science
       institution: University of Memphis, Memphis, TN, USA
-      year:  JAN 2024 - AUG 2025
+      year:  AUG 2019 - MAY 2025
       description:
         - title: Research Interests
           contents:
@@ -61,27 +61,20 @@
   contents:
     - title: Graduate Data Science and NLP Research Assistant
       institution: Institute of Intelligent Systems, University of Memphis
-      year:  JAN 2020 -  Current
+      year:  AUG 2019 -  Current
       description:
-        - Researched and experimented with LLMs, such as GTP-4 and GPT-4 Turbo, to automatically generate expert-level
-          explanations of JAVA code, reducing human labor time and cost
-        - Analyzed the behavior of LLMs, including GPT-3.5, GPT-4, and LLama, to understand the impact of prompts, temperature
-          values, and programming languages, generating and analyzing 3.5K code explanations for comprehensive insights
-        - Applied data science, nautral language processing, and machine learning techniques to analyze thousands of student
-          responses from conversational agents, leading to the development of highly effective learning strategies for source code
-          comprehension and a 45% increase in student performance and understanding
-        - Prepared and released a dataset called SelfCode containing 1.8K sentence pairs of student and expert explanations for
-          building effective AI models for automated assessment
-        - Designed and deployed a machine learning-based web service automating the evaluation of students responses in code
-          comprehension, resulting in a 35% increase in student learning based on the feedback provided
-        - Conducted exploratory data analysis, and advanced statistical analysis on hundreds of students to measure their performance
+        - Fine-tuned Meta Llama3 8B model using LoRA for automated assessment of student code comprehension responses, achieving a 30% improvement in assessment accuracy compared to the base model.
+        - Created a system using LLMs such as GPT-4 and GPT-4 Turbo to automatically generate high-quality explanations for JAVA code, improving student learning outcomes and reducing instructor workload.
+        - Fine-tuned transformer-based models for answer assessment of student response in program comprehension, significantly enhancing accuracy and reliability of assessments in computer science education
+        - Curated and published SelfCode and SelfCode 2.0, a novel dataset of sentence pairs mapping student explanations to expert standards, enabling a 25% improvement in AI model accuracy for automated assessment.
+        - Designed and deployed a machine learning-based web service to evaluate students’ responses in code comprehension, resulting in a 35% increase in student learning based on the feedback provided.
   
-    - title: Graduate Teaching Assistant
-      institution: Department of Computer Science, University of Memphis
-      year: AUG 2019 - DEC 2019
-      description:
-        - Instructed and graded assignments for 40 students, delivering timely feedback and overseeing 10 student projects for COMP 1900 and COMP 4420 courses
-        - Demonstrated strong communication skills and time management while assisting in instructing and grading assignments for computer science courses.
+    # - title: Data Governance Intern
+    #   institution: Hilton
+    #   year: AUG 2019 - DEC 2019
+    #   description:
+    #     - Instructed and graded assignments for 40 students, delivering timely feedback and overseeing 10 student projects for COMP 1900 and COMP 4420 courses
+    #     - Demonstrated strong communication skills and time management while assisting in instructing and grading assignments for computer science courses.
 
     - title: Software Engineer 
       institution: Kulchan Pvt. Ltd., Kathmandu, Nepal
