@@ -2,7 +2,7 @@ github_users:
   - jeevanchaps
 
 github_repos:
-  - jeevanchaps/Meta-Llama3-8B-Instruct-assessment
+  - jeevanchaps/Meta-Llama3.1-8B-Instruct-assessment
   - jeevanchaps/sentiment_analysis_NepaliCovidTweets
   - jeevanchaps/SelfCode
   - jeevanchaps/everest-ner
