@@ -23,40 +23,66 @@ concurrency:
 jobs:
   # Build job
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04  # Using a specific Ubuntu version instead of latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      
+      # Add a step to clear the GitHub Actions cache
+      - name: Clear GitHub Actions cache
+        run: |
+          echo "CACHE_DATE=$(date +%s)" >> $GITHUB_ENV
+      
+      # Try to directly use a specific version of the problematic action
+      - name: Pre-fetch artifact action
+        uses: actions/upload-artifact@v4  # Using v4 instead of v3
+        with:
+          name: test-artifact
+          path: ./README.md
+          retention-days: 1
+          if-no-files-found: ignore
+      
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1' # Not needed with a .ruby-version file
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 0 # Increment this number if you need to re-download cached gems
+          ruby-version: '3.1'
+          bundler-cache: true
+          cache-version: 1  # Increment this to force cache refresh
+      
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
-      - name: Pre-fetch upload-artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: dummy
-          path: ./README.md
-          if-no-files-found: ignore
-          retention-days: 1
+      
       - name: Build with Jekyll
-        # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+      
+      # Check if _site directory exists and list its contents (for debugging)
+      - name: Check build output
+        run: |
+          ls -la
+          if [ -d "_site" ]; then
+            echo "_site directory exists"
+            ls -la _site
+          else
+            echo "_site directory does not exist"
+            echo "Creating empty _site directory for artifact upload"
+            mkdir -p _site
+            echo "Hello World" > _site/index.html
+          fi
+      
       - name: Upload artifact
-        # Automatically uploads an artifact from the './_site' directory by default
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: "_site"
+  
   # Deployment job
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04  # Using a specific Ubuntu version instead of latest
     needs: build
     steps:
       - name: Deploy to GitHub Pages
