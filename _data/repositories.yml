@@ -1,14 +1,13 @@
 github_users:
-  - torvalds
-  - alshedivat
-
-repo_description_lines_max: 2
+  - jeevanchaps
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - jeevanchaps/Meta-Llama3.1-8B-Instruct-assessment
+  - jeevanchaps/sentiment_analysis_NepaliCovidTweets
+  - jeevanchaps/SelfCode
+  - jeevanchaps/everest-ner
+  - jeevanchaps/DanfeNER
+  - jeevanchaps/SMS-SPAM-DETECTION
+  - jeevanchaps/ruby-project-ecommerce
+
+
