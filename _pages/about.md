@@ -6,7 +6,7 @@ subtitle: Ph.D. Candidate at The University of Memphis
 
 profile:
   align: right
-  #image: profile_pic.jpg
+  image: profile_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>304 Edwards Research and Innovation Center</p>
